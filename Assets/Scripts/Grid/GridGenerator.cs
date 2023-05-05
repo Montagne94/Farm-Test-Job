@@ -46,7 +46,7 @@ public class GridGenerator : MonoBehaviour
             for (int z = 0; z < _height; z++)
             {
                 Vector3 position = new Vector3(x * _spacing, 0f, z * _spacing) + gridPoint;
-                Cell cell = Instantiate(_prefab, position, Quaternion.identity, transform);
+                Cell cell = Instantiate(_prefab, position, _prefab.transform.rotation, transform);
                 cell.Initialize(_container.Resolve<Inventory>(), _container.Resolve<Experience>());
                 _grid.AddCell(cell);
                 _cameraSelecter.AddCell(cell);

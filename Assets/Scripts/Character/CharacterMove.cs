@@ -19,7 +19,7 @@ public class CharacterMove : MonoBehaviour
     {
         if (_isMoving)
         {
-            if (!_navMeshAgent.pathPending && _navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && !_navMeshAgent.hasPath)
+            if (!_navMeshAgent.pathPending && _navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
                 _characterAnimator.SetPlant();
                 _isMoving = false;

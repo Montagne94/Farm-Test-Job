@@ -702,5 +702,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a775addb79c3ff48851b0a0f20afccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _plant: {fileID: 6460832312740202218, guid: b06c56c1f2394c74da7313ee990c640d, type: 3}
+  _plant: {fileID: -1098102171746904733, guid: b06c56c1f2394c74da7313ee990c640d, type: 3}
   _image: {fileID: 5736548481422010008}
